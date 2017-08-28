@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
 import {test} from "tap"
 
-import always from "./source"
+import always from "./"
 
 test(({same, end}) => {
   same(
