@@ -1,5 +1,5 @@
-export default function always (value: ValueType): Function {
-  return function alwaysValue (): ValueType {
-    return value
-  }
+export default function always(value) {
+  return function alwaysValue() {
+    return value;
+  };
 }
