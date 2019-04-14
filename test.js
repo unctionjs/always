@@ -1,58 +1,58 @@
 /* eslint-disable no-magic-numbers */
-import {test} from "tap"
+import {test} from "tap";
 
-import always from "./index"
+import always from "./index";
 
 test(({same, end}) => {
   same(
     always("a")(),
     "a"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     always(true)(),
     true
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     always(null)(),
     null
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     always("a")(0),
     "a"
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     always(true)("a"),
     true
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     always(null)(false),
     null
-  )
+  );
 
-  end()
-})
+  end();
+});

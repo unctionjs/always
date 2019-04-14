@@ -1,5 +1,5 @@
-export default function always(value) {
-  return function alwaysValue() {
+export default function always (value) {
+  return function alwaysValue () {
     return value;
   };
 }
