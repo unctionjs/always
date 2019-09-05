@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> ValueType => (ValueType | void) => ValueType
+> T => any => T
 
 Always returns the value given when called
 
