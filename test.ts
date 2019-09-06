@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import always from "./index.ts";
+import always from "./index";
 
 test(() => {
   expect(always("a")()).toEqual("a");
