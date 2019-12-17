@@ -1,6 +1,6 @@
 {
   "name": "@unction/always",
-  "version": "4.1.3",
+  "version": "4.1.4",
   "description": "Always returns the value given when called",
   "keywords": [
     "unction",
@@ -58,8 +58,7 @@
     "browser.js",
     "types/*.d.ts"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "module": "module.js",
   "browser": "browser.js",
   "types": "types.d.ts",
